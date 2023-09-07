@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: rgb(112, 141, 235);
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        nav {
+            background-color: rgba(224, 220, 220, 0.925);
+            text-align: center;
+            border: 1px;
+            padding: 6px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: justify;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        .project {
+            margin: 20px 0;
+            border: 1px solid #ccc;
+            padding: 10px;
+            background-color: #f9f9f9;
+        }
+      
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+        /* Estilos para o botão */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Efeito de hover */
+.button:hover {
+  background-color: #2980b9;
+}
+
+img{
+    width: 58%;
+    flex-direction: column;
+    display: flex;
+    border-radius: 13px;
+}
+
+ul li a{
+    list-style: none;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Portfólio</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#Sobre">Sobre Mim</a></li>
+            <li><a href="#Projetos">Projetos</a></li>
+            <li><a href="#Contato">Contato</a></li>
+        </ul>
+    </nav>
+    <div class="container" id="sobre">
+        <h2>Sobre Mim</h2>
+        <p>Olá! Meu nome é Luis Guilherme, tenho 21 anos e sou apaixonado por tecnologia. Minha grande paixão é o desenvolvimento web, onde posso transformar ideias criativas em experiências digitais incríveis. Desde que mergulhei nesse mundo empolgante, tenho explorado as nuances do desenvolvimento front-end, aprendendo continuamente para aprimorar minhas habilidades. Estou entusiasmado em compartilhar meu entusiasmo pela tecnologia e meu trabalho no desenvolvimento web com o mundo!</p>
+    </div>
+    <div class="container" id="projetos">
+        <h2>Projetos</h2>
+        <div class="project-1">
+            <img src="/imagens/previsão do tempo.jpg" alt="">
+            <h3>Projeto 1</h3>
+            <p>Sobre o Projeto:</p>
+            <a href="https://coruscating-biscuit-aadebd.netlify.app/" class="button">Ir para o Projeto</a>
+            
+        </div>
+        <div class="project-2">
+            <h3>Projeto 2</h3>
+            <img src="/imagens/eletricista.png" alt="">
+            <p>Sobre o Projeto: </p>
+            <a href="https://moonlit-marzipan-3ecfad.netlify.app/" class="button">Ir para o Projeto</a>
+        </div>
+
+        <div class="project-3">
+            <h3>Projeto 3</h3>
+            <img src="/imagens/bacon-egg.png" alt="">
+            <p>Sobre o Projeto:</p>
+            <a href="https://chipper-daffodil-59984a.netlify.app/" class="button">Ir para o Projeto</a>
+        </div>
+    </div>
+    <div class="container" id="contato">
+        <h2>Contato</h2>
+        <p>Você pode entrar em contato comigo pelo email: <a href="https://mail.google.com/mail/u/0/">luiz.guilherme.lg723@gmail.com</a></p>
+    </div>
+
+    <footer>
+        &copy; 2023 Meu Portfólio
+    </footer>
+</body>
+</html>
